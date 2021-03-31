@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA527244-AB7C-450E-B9B8-94C1AD122D3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Metronome</RootNamespace>
+    <AssemblyName>成韻盃 織音-Drum</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo-removebg-preview.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NewMediaPlayer.cs" />
+    <Compile Include="NewPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ObjOutwardInfo.cs" />
+    <Compile Include="Program.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Rsc.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rsc.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Rsc.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Rsc.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bass.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hihat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snare.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMLSS">
+      <Guid>{C21E9CE5-B317-463B-A1B1-B5E36EED59D0}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPDXMLib">
+      <Guid>{73F0DD5C-D071-46B6-A8BF-897C84EAAC49}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bass_drum_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hihat_drum_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snare_drum_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_edge_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freestocks-org-gv1T8bOoAUs-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guitar_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haley-powers-SyTNi2i2Ek0-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <Content Include="logo-removebg-preview.ico" />
+    <Content Include="logo_removebg_preview_WQx_2.ico" />
+    <None Include="Resources\num14.png" />
+    <None Include="Resources\num13.png" />
+    <None Include="Resources\num12.png" />
+    <None Include="Resources\num11.png" />
+    <None Include="Resources\num10.png" />
+    <None Include="Resources\num04.png" />
+    <None Include="Resources\num03.png" />
+    <None Include="Resources\num02.png" />
+    <None Include="Resources\num01.png" />
+    <None Include="Resources\num00.png" />
+    <None Include="Resources\3-12-removebg-preview.png" />
+    <None Include="Resources\2-removebg-preview.png" />
+    <None Include="Resources\1-removebg-preview.png" />
+    <None Include="Resources\settng.png" />
+    <None Include="Resources\maxime-horlaville-yvCuAO4hXB0-unsplash.jpg" />
+    <None Include="Resources\djimbe_tone.png" />
+    <None Include="Resources\djimbe_slap.png" />
+    <None Include="Resources\cajon2_tip.png" />
+    <None Include="Resources\cajon2_slap.png" />
+    <None Include="Resources\cajon_tip.png" />
+    <None Include="Resources\cajon_slap.png" />
+    <None Include="Resources\bongo_tone.png" />
+    <None Include="Resources\bongo_edge.png" />
+    <None Include="Resources\bongo_bass.png" />
+    <None Include="Resources\bango.png" />
+    <None Include="Resources\_2snare_img.png" />
+    <None Include="Resources\_2hihat_img.png" />
+    <None Include="Resources\_2bass_img.png" />
+    <None Include="Resources\bg_guitar.jpg" />
+    <None Include="Resources\annie-spratt-4Hpljf9Y1ko-unsplash.jpg" />
+    <None Include="Resources\2snare_img.png" />
+    <None Include="Resources\2hihat_img.png" />
+    <None Include="Resources\2bass_img.png" />
+    <None Include="Resources\02snare_img.png" />
+    <None Include="Resources\02hihat_img.png" />
+    <None Include="Resources\02bass_img.png" />
+    <None Include="Resources\02.png" />
+    <None Include="Resources\01snare_img.png" />
+    <None Include="Resources\01hihat_img.png" />
+    <None Include="Resources\01bass_img.png" />
+    <None Include="Resources\01.png" />
+    <None Include="Resources\00snare_img.png" />
+    <None Include="Resources\00hihat_img.png" />
+    <None Include="Resources\00bass_img.png" />
+    <None Include="Resources\00.png" />
+    <None Include="Resources\logo2.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\signature.jpg" />
+    <None Include="Resources\signature.png" />
+    <None Include="Resources\background_1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

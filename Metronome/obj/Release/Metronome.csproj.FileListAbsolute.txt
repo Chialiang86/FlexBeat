@@ -1,0 +1,28 @@
+C:\Users\Chialiang\Desktop\Metronome\Metronome\bin\Release\成韻盃 織音-Drum.exe.config
+C:\Users\Chialiang\Desktop\Metronome\Metronome\bin\Release\成韻盃 織音-Drum.exe
+C:\Users\Chialiang\Desktop\Metronome\Metronome\bin\Release\成韻盃 織音-Drum.pdb
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\Metronome.csprojAssemblyReference.cache
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\Interop.MediaPlayer.dll
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\Interop.WMLSS.dll
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\Interop.WMPDXMLib.dll
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\Interop.WMPLib.dll
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\Metronome.csproj.ResolveComReference.cache
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\Metronome.Properties.Rsc.resources
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\Metronome.csproj.GenerateResource.cache
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\Metronome.csproj.CoreCompileInputs.cache
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\成韻盃 織音-Drum.exe
+C:\Users\Chialiang\Desktop\Metronome\Metronome\obj\Release\成韻盃 織音-Drum.pdb
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\bin\Release\成韻盃 織音-Drum.exe.config
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\bin\Release\成韻盃 織音-Drum.exe
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\bin\Release\成韻盃 織音-Drum.pdb
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\Metronome.csprojAssemblyReference.cache
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\Interop.MediaPlayer.dll
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\Interop.WMLSS.dll
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\Interop.WMPDXMLib.dll
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\Interop.WMPLib.dll
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\Metronome.csproj.ResolveComReference.cache
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\Metronome.Properties.Rsc.resources
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\Metronome.csproj.GenerateResource.cache
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\Metronome.csproj.CoreCompileInputs.cache
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\成韻盃 織音-Drum.exe
+C:\Users\Chialiang\Desktop\Program\Metronome\Metronome\obj\Release\成韻盃 織音-Drum.pdb
