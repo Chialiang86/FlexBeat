@@ -3,4 +3,4 @@
 - You can change the time signature(2/4, 3/4, 4/4, 6/8) and the rhythm speed(30-200 bpm)
 - You can also define the rhythm bit by your self
 ## GUI interface
-![](https://i.imgur.com/Twhwal8.jpg)
+![image](https://github.com/user-attachments/assets/f10a6e52-bcd2-432e-9079-d16bb707bcb8)
